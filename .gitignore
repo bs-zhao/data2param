@@ -20,6 +20,10 @@ wheels/
 .installed.cfg
 *.egg
 
+# But keep the main package files
+!data2param/*.py
+!data2param/*/*.py
+
 # Virtual Environment
 venv/
 env/
